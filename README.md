@@ -5,7 +5,7 @@ govc-conftest is a [Conftest](https://github.com/open-policy-agent/conftest) plu
 # Installing a plugin
 
 ```
-conftest plugin install https://github.com/volanja/govc-conftest
+conftest plugin install git://github.com/volanja/govc-conftest//govc
 ```
 
 # Using plugin
