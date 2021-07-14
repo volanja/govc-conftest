@@ -1,0 +1,66 @@
+{
+  "Datacenters": [
+    {
+      "Self": {
+        "Type": "Datacenter",
+        "Value": "ha-datacenter"
+      },
+      "Value": null,
+      "AvailableField": null,
+      "Parent": {
+        "Type": "Folder",
+        "Value": "ha-folder-root"
+      },
+      "CustomValue": null,
+      "OverallStatus": "green",
+      "ConfigStatus": "green",
+      "ConfigIssue": null,
+      "EffectiveRole": [
+        -1
+      ],
+      "Permission": null,
+      "Name": "ha-datacenter",
+      "DisabledMethod": null,
+      "RecentTask": null,
+      "DeclaredAlarmState": null,
+      "TriggeredAlarmState": null,
+      "AlarmActionsEnabled": null,
+      "Tag": null,
+      "VmFolder": {
+        "Type": "Folder",
+        "Value": "ha-folder-vm"
+      },
+      "HostFolder": {
+        "Type": "Folder",
+        "Value": "ha-folder-host"
+      },
+      "DatastoreFolder": {
+        "Type": "Folder",
+        "Value": "ha-folder-datastore"
+      },
+      "NetworkFolder": {
+        "Type": "Folder",
+        "Value": "ha-folder-network"
+      },
+      "Datastore": [
+        {
+          "Type": "Datastore",
+          "Value": "60c4dd35-141ece76-d699-0800272601f9"
+        }
+      ],
+      "Network": [
+        {
+          "Type": "Network",
+          "Value": "HaNetwork-VM Network"
+        },
+        {
+          "Type": "Network",
+          "Value": "HaNetwork-VM Network2"
+        }
+      ],
+      "Configuration": {
+        "DefaultHardwareVersionKey": ""
+      }
+    }
+  ]
+}
