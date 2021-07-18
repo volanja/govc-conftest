@@ -1,7 +1,7 @@
 name: "govc"
 version: "0.1.0"
-usage: conftest govc [command]
+usage: conftest govc [command] (NAME)
 description: |-
   A Conftest plugin for using govc to test objects in VMware vSphere using Open Policy Agent.
-  Usage: conftest govc [command]
+  Usage: conftest govc [command] (NAME)
 command: $CONFTEST_PLUGIN_DIR/govc-conftest.sh
