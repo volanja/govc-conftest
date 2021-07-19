@@ -30,4 +30,4 @@ jobs:
           conftest plugin install git://github.com/volanja/govc-conftest//govc
       - name: conftest verify
         run: |
-          conftest verify --policy examples/datacenter/policy
+          conftest verify --policy examples/
