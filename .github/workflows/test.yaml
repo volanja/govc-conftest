@@ -9,7 +9,7 @@ on:
     paths-ignore:
       - '**/*.md'
 jobs:
-  opa-tests:
+  conftest-verify:
     name: conftest verify
     runs-on: ubuntu-20.04
     steps:
