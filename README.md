@@ -8,12 +8,20 @@ govc-conftest is a [Conftest](https://github.com/open-policy-agent/conftest) plu
 conftest plugin install git://github.com/volanja/govc-conftest//govc
 ```
 
-# Using plugin
+# Using plugin on Linux / Mac
 
-if you check datacenter.info, you type `datacenter.info`
+If you check datacenter.info, you type `datacenter.info`
 
 ```
 conftest govc datacenter.info
+```
+
+__Notice: Windows is not support.__
+
+If you want to use govc on Windows like this plugin, you type below.
+
+```
+govc datacenter.info --json | conftest test -
 ```
 
 # Examples
