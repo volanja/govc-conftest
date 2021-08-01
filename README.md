@@ -18,11 +18,11 @@ conftest govc datacenter.info
 
 # Examples
 
-see `examples` folder.
+see govc-conftest-policies(In Private)
 
 # Question
 
-## `conftest govc` says specify an ESX or vCenter URL"
+## `conftest govc` says "specify an ESX or vCenter URL"
 
 ```
 $ conftest govc datacenter.info
