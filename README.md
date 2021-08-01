@@ -18,7 +18,7 @@ conftest govc datacenter.info
 
 # Examples
 
-see govc-conftest-policies(In Private)
+see [govc-conftest-policies](https://github.com/volanja/govc-conftest-policies)
 
 # Question
 
